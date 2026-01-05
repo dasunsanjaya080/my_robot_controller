@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "test node = my_robot_controller.my_first_node:main"
+            "test node = my_robot_controller.my_first_node:main",
+            "draw circle = my_robot_controller.draw_circle:main"
         ],
     },
 )
